@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "742737344296",
+    "firebase_url": "https://chat-app-aae68.firebaseio.com",
+    "project_id": "chat-app-aae68",
+    "storage_bucket": "chat-app-aae68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742737344296:android:edbc698c3aa96f1553021d",
+        "android_client_info": {
+          "package_name": "com.tigran.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742737344296-1aoc6efmvuv7iovoclipgcg9pbd7v4kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tigran.chatapp",
+            "certificate_hash": "bb095f1641e196e0d140abbd307ea6df95eaecd2"
+          }
+        },
+        {
+          "client_id": "742737344296-02v7uqhfursrresngjrl00njbfq2qvso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0S7w7GFWQGfy_rf9xFov5YiPYFY_wXxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742737344296-02v7uqhfursrresngjrl00njbfq2qvso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

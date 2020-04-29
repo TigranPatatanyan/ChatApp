@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    tools:context=".DialogActivity"
+    android:background="@android:color/holo_blue_dark"
+    android:id="@+id/rl_id">
+
+    <ImageView
+        android:id="@+id/btn_send"
+        style="@style/Button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_send"/>
+
+
+    <EditText
+        android:id="@+id/et_message"
+        style="@style/EditText"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/btn_send"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/et_message"
+        app:stackFromEnd="true">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
